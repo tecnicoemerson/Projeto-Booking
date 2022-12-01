@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+
+    <!-- formulario -->
+    <form>
+        <label for="nome">Nome:</label>
+        <input id="nome" type="text" placeholder="Digite seu Nome" required><br>
+
+        <label for="sobrenome">Sobrenome:</label>
+        <input id="sobrenome" type="text" placeholder="Digite seu Sobrenome" required><br>
+
+        <label for="email">Email:</label>
+        <input id="email" type="email" placeholder="Digite seu email" required><br>
+   
+        <label for="senha">Senha:</label>
+        <input id="senha" type="password" placeholder="Digite sua Senha" required>
+
+        <h2>Animais de estimaçao</h2>
+        <input type="radio" value="Cachorro" name="animal">
+        <label for="Cachorro">Cachorro</label><br>
+
+        <input type="radio" value="Gato" name="animal">
+        <label for="Gato">Gato</label><br>
+
+        <h2>Ferramentas</h2>
+        <input type="radio" value="chave de fenda" name="ferramentas">
+        <label for="chave de fenda">chave de fenda</label><br>
+
+        <input type="radio" value="martelo" name="ferramentas">
+        <label for="martelo">martelo</label><br>
+
+        <!-- Checkbox -->
+        <h2>Lista de compras</h2>
+        <input type="checkbox" name="arroz" value="enviar formulario" id="arroz" >
+        <label for="arroz">arroz</label>
+        <input type="checkbox" name="feijao" value="feijao" id="feijao">
+        <label for="feijao">feijao</label><br>
+
+
+        <!-- select -->
+        <h2>selecione uma cor:</h2>
+        <select name="" id="">
+            <option value="" disabled selected>selecione uma opçao</option>
+            <option value="roxo">roxo</option>
+            <option value="azul">azul</option>
+            <option value="amarelo">amarelo</option>
+            <option value="laranja">laranja</option>
+        </select><br>
+
+        <!-- textarea -->
+       <textarea  name="formulario" id="formulario" cols="40" rows="15" placeholder="Digute uma mensagem"></textarea><br>
+    <input type="submit" name="comentarios" value="Envia formulario">
+
+    </form>
+    
+
+</body>
+</html>     
