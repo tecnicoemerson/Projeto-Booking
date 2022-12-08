@@ -230,6 +230,7 @@ header {
 }
 
 .offers-banner{
+    color: white;
     background-image: url("assets/banner-oferta.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -237,14 +238,15 @@ header {
     border-radius: 10px;
     padding: 1rem;
     margin-right: 2rem;
+    height: 10rem;
 }
 
 .offers-banner h4,p {
-    width: 45%;
+    width: 70%;
     margin-bottom: 10px;
 }
 
-.offers-banner button {
+.offers-banner button, .app-banner button {
     background-color: #0071c2;
     color: white;
     padding: 10px 15px;
@@ -254,11 +256,17 @@ header {
     border: none;
 }
 
-.offers-banner button a {
+.offers-banner button a, .app-banner a {
     text-decoration:  none;
     color: white;
 }
 
 .img-app {
-    width: 150px;
+    width: 120px;
+}
+
+.app-banner {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: flex;
 }
