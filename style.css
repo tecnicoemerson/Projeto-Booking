@@ -149,14 +149,6 @@ header {
     font-size: 16px;
 }
 
-@media (max-width: 600px){/*executa quando largura maxima da tela for ate 600px*/
-    #form-filter-content {
-        flex-direction: column;
-        min-height: 250px;
-        
-    }
-}
-
 #form-filter-content {
     height: 45px;
     border: 3px solid #febb02;
@@ -517,4 +509,29 @@ footer > div > a {
 
 footer div:nth-child(2) {
     margin-top: 2rem;
+}
+
+@media (max-width: 600px){/*executa quando largura maxima da tela for ate 600px*/
+    #form-filter-content {
+        flex-direction: column;
+        min-height: 250px;
+    }
+
+    .offers-list{
+     flex-direction: column;
+    }
+
+    .offers-banner {
+        margin-bottom: 10px;
+    }
+
+    .app-banner p {
+        width: 90%;
+    }
+
+    .app-banner, .offers-banner {
+        margin-top: 1rem;
+        width: 100%;
+    }
+
 }
