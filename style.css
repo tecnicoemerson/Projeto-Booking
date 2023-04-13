@@ -27,8 +27,7 @@ header {
 }
 
 .logo {
-    display: flex;
-    justify-content: space-between; /* alinha o conteúdo na horizontal */
+    display: -webkit-box;
     padding: 10px;
 }
 
@@ -319,6 +318,7 @@ header {
 .menu-filter {
     display: flex;
     width: 100%;
+    flex-wrap: wrap;
 }
 
 .menu-filter li {
@@ -531,7 +531,65 @@ footer div:nth-child(2) {
 
     .app-banner, .offers-banner {
         margin-top: 1rem;
+        margin-left: -5%;
         width: 100%;
     }
 
+    .logo p {
+        margin-left: -40px;
+        margin-top: 10px;
+    }
+    .row-center {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    }
+
+    .list img {
+        width: 280px;
+    }
+
+    .list {
+        margin-left: 10%;
+    }
+
+    #hero h1 {
+        font-size: 35px;
+        width: 100%;
+    }
+
+    .field input {
+        width: 40%;
+    }
+
+    .news-letter form input[type="email"] {
+        width: 225px;
+        height: 40px;
+        border-radius: 5px;
+        padding-left: 4px;
+        font-size: 1rem;
+        border: none;
+        margin-left: 15px;
+    }
+
+    .news-letter form input[type="submit"] {
+        background-color: #0071c2;
+        color: white;
+        border-radius: 5px;
+        border: none;
+        padding: 0.7rem 1.3rem;
+        margin-left: 4px;
+    }
+
+    #sales-options ul li a {
+        color: white;
+        font-size: 12px;
+        font-weight: bold;
+        margin-right: 6px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    
 }
