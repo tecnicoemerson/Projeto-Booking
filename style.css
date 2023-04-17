@@ -546,7 +546,7 @@ footer div:nth-child(2) {
     }
 
     .row-center {
-        flex-wrap: wrap;
+        display: list-item;
     }
     
 
@@ -595,6 +595,18 @@ footer div:nth-child(2) {
         flex-direction: column;
     }
 
-
+    #actions {
+        margin-left: -120px;
+        margin-right: -11px;
+        margin-top: 10px;
+    }
     
+
+    #menu-options ul li:nth-child(1) a {
+        border: 1px solid white;
+        padding: 10px 10px 10px 7px;
+        border-radius: 50px;
+        background-color: hsla(0, 0%, 100%, .1);
+        margin: 20px 130px 0px 15px;
+    }
 }
