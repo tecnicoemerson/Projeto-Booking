@@ -27,14 +27,15 @@ header {
 }
 
 .logo {
-    display: -webkit-box;
-    padding: 10px;
+    display: flex;
+    flex-direction: row-reverse;
 }
 
-.logo p {
+.h2 {
     color: white;
     font-weight: bold; 
     font-size: 24px;
+    margin: 30px 0px -30px 25px;
 }
 
 .row-center {
@@ -293,7 +294,8 @@ header {
 }
 
 .list img {
-    width: 210px;
+    width: 185px;
+    margin-top: 15px;
 }
 
 .list a {
@@ -535,23 +537,25 @@ footer div:nth-child(2) {
         width: 100%;
     }
 
-    .logo p {
-        margin-left: -40px;
-        margin-top: 10px;
-    }
-    .row-center {
+    .h2 {
         display: flex;
-        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        justify-content: center;
+        margin-left: 15%;
+    }
+
+    .row-center {
         flex-wrap: wrap;
     }
-    }
+    
 
     .list img {
         width: 280px;
     }
 
     .list {
-        margin-left: 10%;
+        margin-left: 6%;
     }
 
     #hero h1 {
@@ -590,6 +594,7 @@ footer div:nth-child(2) {
         display: flex;
         flex-direction: column;
     }
+
 
     
 }
